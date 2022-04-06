@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Gr8Experts moving company | Your favourite local company </title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <div class="contact-info">
+      <p> <i class="fas fas fas fa-map-marker-alt"></i> 55 Chumasero Dr, San Francisco, CA 94132 </p>
+      <a href="mailto:gr8expertsm@gmail.com"><i class="fas fa-envelope"></i> gr8expertsm@gmail.com</a>
+      <a href="tel:6822865135"><i class="fas fas fa-phone-alt"></i> (628)286-5135 </a>
+   </div>
+
+   <nav class="navbar">
+
+      <a href="#" class="logo"> <i class="fas fas fa-truck-moving"></i> Gr8Experts </a>
+
+      <div class="links">
+         <a href="index.html">home</a>
+         <a href="services.html">services</a>
+         <a href="reservation.html">reservation</a>
+         <a href="contact.html">contact</a>
+      </div>
+
+      <div id="menu-btn" class="fa fa-bars"></div>
+
+   </nav>
+
+</header>
+
+<!-- header section ends -->
+    <h1 class="heading"><span>Reservation</span></h1>
+    <form action="https://formsubmit.co/sattorovsamariddin27@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New Message from  |Gr8Experts moving company">
+
+    
+    <section class="footer">
+
+        <div class="box-container">
+     
+           <div class="box">
+            <h1>Client info</h1>
+            <input type="text" id="fullname" name="Full name" placeholder="Full Name" required>
+            <input type="email" id="email" name="Email adress" placeholder="E-mail" required>
+            <input type="number" id="number" name="Phone number" placeholder="Phone Number" onclick="phonenumber(inputtxt)" required>
+            <input type="datetime-local" id="move-data" placeholder="Move data" name="Move data-time" required>
+            <select name="Select move size" id="movesize" required>
+                <option value = "Select move size">Select move size</option>
+                <option value="Studio">Studio</option>
+                <option value="1 bedroom">1 bedroom</option>
+                <option value = "2bedroom(small size,few items)">2bedroom(small size,few items)</option>
+                    <option value = "2bedroom(avg. size, avg.items)">2bedroom(avg. size, avg.items)</option>
+                    <option value = "2bedroom(large, many items)">2bedroom(large, many items)</option>
+                    <option value = "3bedroom(avg. size, avg.items)">3bedroom(avg. size, avg.items)</option>
+                    <option value = "3bedroom(large, many items)">3bedroom(large, many items)</option>
+                    <option value = "4bedroom(avg. size, avg. items)">4bedroom(avg. size, avg. items)</option>
+                    <option value = "4bedroom(large, many items)">4bedroom(large, many items)</option>
+                    <option value = "commercial(avg. size, avg. items)">commercial(avg. size, avg. items)</option>
+                    <option value = "commercial(large, many items)">commercial(large, many items)</option>
+            </select>
+           </div>
+     
+           <div class="box">
+            <h1>Move details</h1>
+            <input type="text" id="pickupadress" placeholder="Pick up adress" name="Pick up adress" required>
+            <div class="oraliq">
+                <input type="text" id="apt" placeholder="Apt" name="Pick up adress Apt" required>
+                <input type="number" id="zip1" placeholder="Zip" name="Pick up adress Zip" required>
+            </div>
+            <select name="Is it a storage? (Pick up adress)" id="storage">
+                <option value="Is it a storage?">Is it a storage?</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <!-- drop off adress -->
+            <input type="text" id="pickupadress" placeholder="Drop off adres" name="Drop off adress" required>
+            <div class="oraliq">
+                <input type="text" id="apt" placeholder="Apt" name="Drop off adress Apt" required>
+                <input type="number" id="zip1" placeholder="Zip" name="Drop off adress Zip" required>
+            </div>
+            <select name="Is it a storage? (Drop off adress)" id="storage">
+                <option value="Is it a storage?">Is it a storage?</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+           </div>
+     
+           <div class="box">
+            <select name="How did you hear about us?" id="hearus">
+                <option value="How did you hear about us?">How did you hear about us?</option>
+                <option value="Yelp">Yelp</option>
+                <option value="Google">Google</option>
+                <option value="Angies List">Angies List</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Referral">Referral</option>
+                <option value="Previous Customer">Previous Customer</option>
+                <option value="BBB">BBB</option>
+            </select>
+            <textarea name="Additional info" id="addinfo" rows="7" cols="7" placeholder="Additional info"></textarea>
+            <input class="newcheck" type="checkbox" name="I agree with Terms and Conditions" id="defaultCheck1">
+            <label class="newlabel" for="defaultCheck1">
+              I agree width <a href="#modalbox" class="terms">Terms and Conditions</a>
+              <div class="form-info">We don't share your information</div>
+              <button type="submit" id="submit" onclick="thanks()">SUBMIT </button>
+              <div id="modalbox" class="modal">
+                  <div class="modalcontent">
+                      <div class="modal-title">Terms and Conditions</div>
+                      <div class="modal-body">
+                          <ul>
+                              <li>
+                                3 Hour minimum service charge
+                              </li>
+                              <li>We do not estimate time with accuracy. Almost every move is unique in some way. However we will make necessary adjustments for unsatisfactory service or miscommunication.</li>
+                              <li>Only you are responsible for the information you provided so please be very patient and fill in information with accuracy so we can better serve you</li>
+                          </ul>
+                      </div>
+                      <a href="#" class="modalclose">&times;</a>
+                  </div>
+              </div>
+            </label>
+        </div>
+           
+           </div>
+     
+        </div>
+     </section>
+   </form>
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a class="link" href="index.html"> <i class="fas fa-angle-right"></i> Home</a>
+         <a class="link" href="services.html"> <i class="fas fa-angle-right"></i> Services</a>
+         <a class="link" href="reservation.html"> <i class="fas fa-angle-right"></i> Reservation</a>
+         <a class="link" href="contact.html"> <i class="fas fa-angle-right"></i> Contact</a>
+      </div>
+
+      <div class="box">
+         <h3>opening hours</h3>
+         <p> <span>Mon-Tue :</span> 10:00am to 11:00pm </p>
+         <p> <span>Wed-Thu :</span> 10:00am to 10:09pm </p>
+         <p> <span>Fri-Sat :</span> 10:00am to 00:00pm </p>
+         <p> <span>Sunday :</span> closed </p>
+      </div>
+
+      <div class="box">
+         <h3>contact info</h3>
+         <a href="#" class="link"> <i class="fas fa-phone"></i> (628)286-5135 </a>
+         <a href="#" class="link"> <i class="fas fa-envelope"></i> gr8expertsm@gmail.com </a>
+         <a href="#" class="link"> <i class="fas fas fa-map-marker-alt"></i> 55 Chumasero Dr <br>Francisco, CA 94132 </a>
+      </div>
+
+   </div>
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+<script>
+    function thanks() { 
+       alert("Thanks for your Application !")
+    }
+ </script>
+
+</body>
+</html>
